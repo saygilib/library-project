@@ -1,5 +1,5 @@
 const db = require("../models");
-const { users, books, validateUser } = db;
+const { users, books} = db;
 module.exports.getUser = async (req, res) => {
   const id = req.params.id;
 
